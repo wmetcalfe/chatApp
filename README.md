@@ -22,3 +22,5 @@ http.listen(3000, function(){
   console.log('listening on *:3000');
 });
 ```
+# Getting Started
+After you've completed installing the necessary assets for this project, open up your terminal again and navigate to the project folder. Type <b>node app</b> to get your server running, and go to <b>localhost:3000</b> in your browser (or whatever port you set it to).
