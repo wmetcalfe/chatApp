@@ -1,0 +1,29 @@
+{
+  "name": "chatApp",
+  "version": "1.0.0",
+  "description": "Chat application for standalone and video project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wmetcalfe/chatApp.git"
+  },
+  "keywords": [],
+  "author": "William Metcalfe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wmetcalfe/chatApp/issues"
+  },
+  "homepage": "https://github.com/wmetcalfe/chatApp",
+  "dependencies": {
+    "express": "^4.16.2",
+    "grunt": "^1.0.1",
+    "socket.io": "^2.0.4"
+  },
+  "devDependencies": {
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}

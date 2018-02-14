@@ -1,0 +1,103 @@
+*{margin:0;padding:0;box-sizing:border-box}body{font:13px Helvetica, Arial}form{background:#000;padding:3px;position:fixed;bottom:0;width:100%}form input{border:0;padding:10px;width:90%;margin-right:0.5%}form button{width:9%;background:#82e0ff;border:none;padding:10px}#messages{list-style-type:none;margin:0;padding:0}#messages li{padding:5px 10px}#messages li:nth-child(odd){background:#eee}
+/*# sourceMappingURL=main.css.map */
+
+body
+{
+  /* background-color: #96cfff; */
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3a7bd5+0,00d2ff+100 */
+  background-color: #0a0661;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%230a0661' cx='50' cy='0' r='50'/%3E%3Cg fill='%2300156e' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%2300227a' cx='50' cy='100' r='50'/%3E%3Cg fill='%23002e86' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%23003992' cx='50' cy='200' r='50'/%3E%3Cg fill='%2300449c' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%23004fa7' cx='50' cy='300' r='50'/%3E%3Cg fill='%23005ab0' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%230065b9' cx='50' cy='400' r='50'/%3E%3Cg fill='%230071c2' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%23007cc9' cx='50' cy='500' r='50'/%3E%3Cg fill='%230087d1' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%230092d8' cx='50' cy='600' r='50'/%3E%3Cg fill='%23009ede' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%2300a9e3' cx='50' cy='700' r='50'/%3E%3Cg fill='%2300b4e9' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%2300c0ee' cx='50' cy='800' r='50'/%3E%3Cg fill='%2300cbf2' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%2300d6f7' cx='50' cy='900' r='50'/%3E%3Cg fill='%2300e2fb' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%230aedff' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: contain;
+  background-position: center;
+
+/* margin-bottom: 500px; */
+}
+
+#mainTitle
+{
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 50px;
+}
+
+#welcome
+{
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 30px;
+  padding-bottom: 50px;
+}
+
+#send
+{
+  background-color: #17b72d;
+  color: white;
+  padding: 12px;
+  font-weight: bold;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#send:hover
+{
+  background-color: #1c872c;
+  cursor: pointer;
+}
+
+.message
+{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 20px;
+}
+
+.nickname
+{
+  font-size: 17px;
+  padding: 10px;
+  padding-right: 50px;
+  padding-left: 50px;
+  border: none;
+  display: block;
+  margin: 50px auto;
+  border-radius: 50px;
+  text-align: center;
+}
+
+#messages
+{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.messageText
+{
+  color: black;
+  border-radius: 50px;
+  font-size: 25px;
+}
+
+.userLeft
+{
+  color: red;
+  border-radius: 50px;
+  font-size: 25px;
+}
+
+#isHere
+{
+  color: green;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 721px) {
+  #send
+  {
+    float: right;
+  }
+}

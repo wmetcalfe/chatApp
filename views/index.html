@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Chat App</title>
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<h1 id="mainTitle">Hello!</h1>
+	<p id="welcome">Welcome to my chat app! Enter your name to get started.</p>
+	<input type="text" class="nickname" placeholder="What is your nickname?">
+	<ul id="messages"></ul>
+	<form>
+		<input class="message" type="text" id="m" autocomplete="off">
+		<button id="send">Send</button>
+	</form>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
